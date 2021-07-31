@@ -9,7 +9,7 @@
 	""")
 	
 	#define the ticker symbol
-	tickerSymbol = 'GOOGL'
+	tickerSymbol = 'APPL'
 	#get data on this ticker
 	tickerData = yf.Ticker(tickerSymbol)
 	#get the historical prices for this ticker
