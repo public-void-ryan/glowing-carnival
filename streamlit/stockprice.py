@@ -4,12 +4,12 @@ import streamlit as st
 st.write("""
 # Simple Stock Price App
 	
-Shown are the stock closing price and volume!
+Shown are the stock closing price and volume for Apple Inc!
 	
 """)
 	
 #define the ticker symbol
-tickerSymbol = 'APPL'
+tickerSymbol = 'AAPL'
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
