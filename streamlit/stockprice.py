@@ -4,7 +4,7 @@
 	st.write("""
 	# Simple Stock Price App
 	
-	Shown are the stock closing price and volume of Google!
+	Shown are the stock closing price and volume!
 	
 	""")
 	
